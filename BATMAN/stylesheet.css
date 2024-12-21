@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    background-color: black;
+}
+
+#title {
+    background-color: rgb(2, 2, 196);
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    text-shadow: 5px 5px 20px white;
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    place-content: center;
+    display: flex;
+    
+}
+ p {
+    text-align: center;
+    color: white;
+    margin: 15px 400px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin: 50px
+}
+
+h3:hover {
+    color:blue;
+}
+
+footer {
+    background-color:  rgb(2, 2, 196);
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+ .right {
+    background-color: rgb(2,2,196);
+    float: right;
+    padding: 0px 5px
+}
+
+ .left {
+    background-color: rgb(2, 2, 196);
+    padding:  5px 5px 5px 5px;
+}
+
+ #post1, #post2, #post3, #post4, #post5, #post6 {
+    border: 2px solid white;
+    align-items: center;
+    margin: 50px 100px 100px 100px;
+}
+
+ footer:active {
+    color: red;
+}
+
+
+ nav {
+    background-color: rgb(49, 49, 49);
+
+}
+ 
+ 
+ nav ul {
+     padding: 0;
+     margin: 0;
+     border: 1px solid white;
+ }
+ 
+   nav ul li a {
+     display: block;
+     padding: 15px;
+   }
+ 
+ nav ul li a:hover {
+    transition: 0.2s linear;
+     background-color: rgb(187, 187, 187);
+ 
+ }
+
+a:link, a:visited {
+    color: blue;
+}
+ 
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: white;
+}
